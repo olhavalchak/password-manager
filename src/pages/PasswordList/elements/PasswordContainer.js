@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { StyledEditTodo } from './EditTodo';
-import { StyledDestroyTodo } from './DestroyTodo';
-import { StyledTask } from './Task';
+import { StyledEdit } from './EditPassword';
+import { StyledIcon } from './Icon';
+import { StyledInfoInput } from './InfoInput';
 
-export const StyledTodo = styled.div`
+export const StyledPasswordContainer = styled.div`
   display: flex;
   justify-content:space-around;
   align-items: center;
@@ -14,13 +14,13 @@ export const StyledTodo = styled.div`
   &:hover {
     background-color: #E1E1C9; 
   }
-  &:hover ${StyledEditTodo} {
+  &:hover ${StyledEdit} {
     visibility: visible;
   }
-  &:hover ${StyledDestroyTodo} {
+  &:hover ${StyledIcon} {
     visibility: visible;
   }
-  &:hover ${StyledTask} {
+  &:hover ${StyledInfoInput} {
     background: #E1E1C9;
   }
   

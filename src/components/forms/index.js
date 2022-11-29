@@ -1,3 +1,3 @@
-export * from './AddTodoForm';
+export * from './AddPasswordInfoForm';
 export * from './LogInForm';
 export * from './SignUpForm';

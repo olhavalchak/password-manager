@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {
-  SignUpPage, LogInPage, TaskList, PageNotFound,
+  SignUpPage, LogInPage, PasswordList, PageNotFound,
 } from './pages';
 import { book } from './navigation/book';
 import { selectProfile } from './lib/redux/selectors';
@@ -38,7 +38,7 @@ function App() {
         path={book.toDoList}
         element={(
           <PrivateRoute>
-            <TaskList />
+            <PasswordList />
           </PrivateRoute>
         )}
       />
