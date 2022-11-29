@@ -1,7 +1,7 @@
 import { auth } from './auth';
-import { tasks } from './tasks';
+import { passwords } from './passwords';
 
 export const api = Object.freeze({
   auth,
-  tasks,
+  passwords,
 });

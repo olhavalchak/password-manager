@@ -1,2 +1,2 @@
 export * from './authReducer';
-export * from './tasksReducer';
+export * from './passwordInfoReducer';

@@ -1,28 +1,6 @@
 {
   "users": [
-    {
-      "email": "olka@gmail.com",
-      "password": "$2a$10$I9htAylwzQd2DnYUvc7wa.CaFThDCNBGe9h/R6SyV4a.zQjPXVmPu",
-      "name": "olka",
-      "id": 1
-    },
-    {
-      "email": "olia.valchak@gmail.com",
-      "password": "$2a$10$Z3R5W/FGlDV5eTcikhZFUew5R04NZ38BtKA0yf5WS7L5hAiSeL9YO",
-      "name": "Olyalya",
-      "id": 2
-    }
   ],
-  "tasks": [
-    {
-      "task": "112344",
-      "id": 11,
-      "isFinished": false
-    },
-    {
-      "task": "akakswdsseqqq",
-      "id": 12,
-      "isFinished": true
-    }
+  "passwords": [
   ]
 }

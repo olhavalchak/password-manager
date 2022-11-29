@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledToDoListContainer = styled.div`
+export const StyledPasswordListContainer = styled.div`
   background:#FFFFFC;
   display: flex;
   margin-top: 20px;

@@ -1,2 +1,2 @@
 export * from './authSelectors';
-export * from './tasksSelectors';
+export * from './passwordIfoSelectors';
